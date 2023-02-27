@@ -1,0 +1,10 @@
+file = open('file.txt', 'w')
+print(file.write('I have a dog'))
+
+file = open('file.txt', 'r')
+print(file.read())
+file.close()
+
+******OUTPUT*******
+12
+I have a dog
