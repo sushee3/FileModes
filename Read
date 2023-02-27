@@ -1,0 +1,15 @@
+#read
+file = open('file.txt', 'r')
+print(file.read())
+file.close()
+
+
+*******OUTPUT********
+//have to create a file named file.txt previously with some text already inside
+apple
+banana
+car
+125564
+True
+Tom
+546.6789
