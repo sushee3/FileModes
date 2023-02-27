@@ -1,0 +1,18 @@
+file = open('file.txt', 'a')
+print(file.write('\nI have a dog'))
+
+file = open('file.txt', 'r')
+print(file.read())
+
+
+
+*********OUTPUT**********
+13
+apple
+banana
+car
+125564
+True
+Tom
+546.6789I
+I have a dog
